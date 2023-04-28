@@ -1,7 +1,8 @@
 node_modules/
 /test-results/
-/playwright-report/
-/playwright/.cache/
+packages/e2e/playwright-report/
+packages/e2e/test-results/
+packages/e2e/playwright/.cache/
 
 
 # Yarn
