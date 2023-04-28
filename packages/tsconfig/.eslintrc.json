@@ -1,0 +1,38 @@
+{
+  "extends": ["react-app", "plugin:storybook/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["header", "@typescript-eslint", "lodash"],
+  "rules": {
+    "prefer-object-spread": "error",
+    "header/header": [
+      "error",
+      "line",
+      [
+        {
+          "pattern": ":copyright: Copyright \\(c\\) \\d{4} ftrack"
+        }
+      ]
+    ],
+    "lodash/import-scope": ["error", "method"]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.stories.js"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    },
+    {
+      "files": ["packages/**/*.js"],
+      "rules": {
+        "no-console": "error"
+      }
+    },
+    {
+      "files": ["packages/**/*.test.js"],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
+}

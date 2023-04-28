@@ -1,0 +1,12 @@
+{
+    "name": "@test-pw/e2e",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@playwright/test": "^1.33.0"
+    },
+    "dependencies": {
+        "@test-pw/data-utils": "workspace:*"
+    }
+}
