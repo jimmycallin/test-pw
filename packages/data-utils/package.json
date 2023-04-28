@@ -1,14 +1,18 @@
 {
     "name": "@test-pw/data-utils",
     "version": "1.0.0",
-    "main": "index.ts",
+    "main": "source/index.ts",
     "license": "MIT",
     "dependencies": {
         "@tanstack/react-query": "^4.29.5",
+        "@tanstack/react-query-devtools": "^4.29.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "@test-pw/tsconfig": "workspace:*"
+        "@ftrack/api": "^1.4.7",
+        "@test-pw/tsconfig": "workspace:*",
+        "@types/react": "^18.2.0",
+        "uuid": "^9.0.0"
     }
 }

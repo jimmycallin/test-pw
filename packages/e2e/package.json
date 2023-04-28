@@ -4,9 +4,11 @@
     "main": "index.js",
     "license": "MIT",
     "devDependencies": {
-        "@playwright/test": "^1.33.0"
+        "@playwright/test": "^1.33.0",
+        "@types/uuid": "^9.0.1"
     },
     "dependencies": {
-        "@test-pw/data-utils": "workspace:*"
+        "@test-pw/data-utils": "workspace:*",
+        "uuid": "^9.0.0"
     }
 }
